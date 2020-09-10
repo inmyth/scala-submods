@@ -18,7 +18,15 @@ libraryDependencies += "io.monix" %% "monix-kafka-1x" % "1.0.0-RC6"
 libraryDependencies += "org.apache.kafka" %% "kafka" % "2.6.0"
 libraryDependencies += "com.pauldijou" %% "jwt-core" % "4.2.0"
 // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
-libraryDependencies += "org.slf4j" % "slf4j-simple" % "2.0.0-alpha1"
+//libraryDependencies += "org.slf4j" % "slf4j-simple" % "2.0.0-alpha1"
+// https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j18-impl
+// https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl
+// https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core
+libraryDependencies += "org.apache.logging.log4j" % "log4j-core" % "2.13.3"
+// https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api
+libraryDependencies += "org.apache.logging.log4j" % "log4j-api" % "2.13.3"
+
+libraryDependencies += "org.apache.logging.log4j" % "log4j-slf4j-impl" % "2.13.3"
 
 
 assemblyMergeStrategy in assembly := {
