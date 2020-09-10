@@ -12,8 +12,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.2.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: ch.qos.logback:logback-core:1.2.3:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-annotations:2.10.2:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.10.2:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.10.2:jar" level="project" />
@@ -73,7 +71,8 @@
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.12:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.12.12:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:log4j-over-slf4j:1.7.30:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.30:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:2.0.0-alpha1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.slf4j:slf4j-simple:2.0.0-alpha1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-core_2.12:2.1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-effect_2.12:2.1.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_2.12:2.1.1:jar" level="project" />

@@ -17,6 +17,9 @@ libraryDependencies += "io.monix" %% "monix" % "3.2.2+45-5c6c8b9e"
 libraryDependencies += "io.monix" %% "monix-kafka-1x" % "1.0.0-RC6"
 libraryDependencies += "org.apache.kafka" %% "kafka" % "2.6.0"
 libraryDependencies += "com.pauldijou" %% "jwt-core" % "4.2.0"
+// https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
+libraryDependencies += "org.slf4j" % "slf4j-simple" % "2.0.0-alpha1"
+
 
 assemblyMergeStrategy in assembly := {
   case PathList(ps @ _*) if ps.last endsWith ".html" => MergeStrategy.first
