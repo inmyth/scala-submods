@@ -16,6 +16,7 @@ libraryDependencies += "io.vertx" %% "vertx-web-scala" % "3.9.1"
 libraryDependencies += "io.monix" %% "monix" % "3.2.2+45-5c6c8b9e"
 libraryDependencies += "io.monix" %% "monix-kafka-1x" % "1.0.0-RC6"
 libraryDependencies += "org.apache.kafka" %% "kafka" % "2.6.0"
+libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.3"
 
 libraryDependencies += "com.pauldijou" %% "jwt-core" % "4.2.0"
 
