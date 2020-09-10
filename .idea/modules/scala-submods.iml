@@ -61,9 +61,6 @@
     <orderEntry type="library" name="sbt: net.sf.jopt-simple:jopt-simple:5.0.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.kafka:kafka-clients:2.6.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.kafka:kafka_2.12:2.6.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.logging.log4j:log4j-api:2.13.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.logging.log4j:log4j-core:2.13.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.apache.logging.log4j:log4j-slf4j-impl:2.13.3:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.yetus:audience-annotations:0.5.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.zookeeper:zookeeper-jute:3.5.8:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.zookeeper:zookeeper:3.5.8:jar" level="project" />
@@ -74,7 +71,8 @@
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.12:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.12.12:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:log4j-over-slf4j:1.7.30:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.30:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:2.0.0-alpha1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.slf4j:slf4j-simple:2.0.0-alpha1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-core_2.12:2.1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-effect_2.12:2.1.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_2.12:2.1.1:jar" level="project" />
